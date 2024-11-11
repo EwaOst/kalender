@@ -1,0 +1,138 @@
+/* Stylowanie przycisku */
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  z-index: 10;
+}
+
+.back-button-2 {
+
+  display: inline-block;
+  padding: 20px 80px;
+  background-color: #444;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  z-index: 10;
+  font-size: 60px;
+  margin-top: 25rem;
+}
+
+
+.back-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.back-button-2:hover{
+  background-color: #444;
+  transform: scale(1.05);
+}
+
+.back-button:active {
+  transform: scale(0.98);
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  color: #444;
+  text-align: center;
+  
+}
+
+/* Stylowanie sekcji galerii */
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.image-item {
+  position: relative;
+  width: 22%;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-image {
+  width: 450px;
+  height: 300px;
+  transition: opacity 0.3s ease-in-out;
+  object-fit:cover;
+}
+
+/* Overlay z tekstem na zdjęciu */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-item:hover .overlay {
+  opacity: 1;
+}
+
+section {
+  margin: 50px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+section h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.montserrat-hero-header {
+  font-size: 70px;
+  height: 750px;
+  
+}
+.roots-info{
+  margin-top: 10rem;
+  position: relative;
+}

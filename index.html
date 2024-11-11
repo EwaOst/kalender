@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Kräuter Kalender</title>
+
+   <!-- Włączenie czcionki Montserrat -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+   <!-- Ścieżka do stylów CSS -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <!-- Zewnętrzny jQuery -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="montserrat">
+   <div id="content">
+      <header class="column-xs main-xs-between cross-xs-center full-image-wrap">
+        <h1 class="montserrat-hero-header">KRÄUTER Kalender</h1>
+        <a href="#main" class="down-arr">&#8595;</a>
+        <img class="full-image" src="images/top-view-herbs-arrangement-concept.jpg" alt="">
+      </header>
+
+      <main id="main">
+        <!-- Opisowa sekcja -->
+        <section class="row-xs main-xs-center cross-xs-center">
+          <h3>Erntekalender für Wildkräuter</h3>
+        </section>
+        <!-- Sekcja kalendarza zbioru ziół -->
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Zioło</th>
+                <th>01</th>
+                <th>02</th>
+                <th>03</th>
+                <th>04</th>
+                <th>05</th>
+                <th>06</th>
+                <th>07</th>
+                <th>08</th>
+                <th>09</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="pages/ziolo1-strona.html">Acker-Schachtelhalm</a></td>
+                <td></td> <td></td> <td></td> <td><span class="collect">🌿</span></td>
+                <td><span class="collect">🌿</span></td> <td><span class="collect">🌿</span></td>
+                <td><span class="collect">🌿</span></td> <td><span class="collect">🌿</span></td>
+                <td></td> <td></td> <td></td> <td></td>
+              </tr>
+              <tr>
+                <td><a href="ziolo2.html">Ampfer Sauerampfer</a></td>
+                <td></td> <td><span class="collect">🌿</span></td> <td><span class="collect">🌿</span></td>
+                <td></td> <td></td> <td></td> <td><span class="collect">🌿</span></td>
+                <td><span class="collect">🌿</span></td> <td></td> <td></td> <td></td> <td></td>
+              </tr>
+              <!-- Dodaj więcej wierszy dla innych ziół -->
+            </tbody>
+          </table>
+       </section>
+
+        <!-- Kontener na dodatkowe informacje -->
+        <div id="info-container"></div>
+      </main>
+    </div>
+
+    <!-- Skrypt JavaScript -->
+    <script src="scripts/script.js"></script>
+
+
+</body>
+</html>
